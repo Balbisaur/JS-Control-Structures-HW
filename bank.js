@@ -13,7 +13,7 @@ function withdraw(amount) {
         return "Withdrawal amount must be positive.";
     }
     if (amount > balance) {
-        return "Insufficient balance for the withdrawal.";
+        return "Lol you broke buddy.";
     }
     balance -= amount;
     return `Successfully withdrew your life savings:( $${amount}. Current balance: $${balance}`;
