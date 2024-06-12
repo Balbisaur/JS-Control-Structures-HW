@@ -3,7 +3,8 @@ let isLoggedIn = false;
 let products = [
     { id: 1, name: "Soda", price: "6" },
     { id: 2, name: "Meat", price: "22" },
-    { id: 3, name: "Toilet Paper", price: "9" }
+    { id: 3, name: "Toilet Paper", price: "9" },
+    { id: 4, name: "Veggies", price: "12" }
 ];
 
 let cart = [];
